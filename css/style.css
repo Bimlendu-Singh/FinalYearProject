@@ -19,15 +19,27 @@
   padding: 1%;
 }
 
+/* Navbar css starts here */
 .logo {
   border: 1px solid red;
+  background-color: rgb(39, 46, 121);
+  width: 10%;
 }
 
-.logo,
+/* .logo,
 img {
   width: 40%;
   border: 2px solid rgb(53, 33, 3);
   border-radius: 50%;
   height: 100px;
   width: 100px;
+} */
+
+.responsive-img {
+  width: 100%;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
 }
+
+/* Navbar css ends here */
