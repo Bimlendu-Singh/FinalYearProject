@@ -19,11 +19,15 @@
   padding: 1%;
 }
 
+.logo {
+  border: 1px solid red;
+}
+
 .logo,
 img {
   width: 40%;
   border: 2px solid rgb(53, 33, 3);
-  border-radius: 100%;
+  border-radius: 50%;
   height: 100px;
   width: 100px;
 }
