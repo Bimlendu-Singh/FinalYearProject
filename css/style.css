@@ -22,8 +22,10 @@
 /* Navbar css starts here */
 .logo {
   border: 1px solid red;
-  background-color: rgb(39, 46, 121);
-  width: 10%;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+
 }
 
 /* .logo,
@@ -41,5 +43,9 @@ img {
   height: 100px;
   width: 100px;
 }
+
+/* .navbar-container {
+  /* background-color: rgb(39, 46, 121); */
+} */
 
 /* Navbar css ends here */
