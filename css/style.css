@@ -4,6 +4,8 @@
   Version: 1.0
 */
 
+/* Css for all */
+
 * {
   margin: 0;
   padding: 0;
@@ -19,33 +21,45 @@
   padding: 1%;
 }
 
+.text-allign-right {
+  text-align: right;
+}
+
+.clearfix {
+  clear: both;
+  display: none;
+}
+
 /* Navbar css starts here */
 .logo {
+  float: left;
   border: 1px solid red;
-  height: 100px;
-  width: 100px;
+  max-width: 8%;
   border-radius: 50%;
-
+  overflow: hidden;
 }
-
-/* .logo,
-img {
-  width: 40%;
-  border: 2px solid rgb(53, 33, 3);
-  border-radius: 50%;
-  height: 100px;
-  width: 100px;
-} */
 
 .responsive-img {
-  width: 100%;
   border-radius: 50%;
-  height: 100px;
-  width: 100px;
+  height: 90px;
+  width: 100%;
 }
 
-/* .navbar-container {
+.navbar-container {
   /* background-color: rgb(39, 46, 121); */
-} */
+  border-radius: 10px;
+  overflow: auto;
+  padding: 0;
+}
+
+.menu ul {
+  list-style-type: none;
+}
+
+.menu ul li {
+  display: inline;
+  padding: 1%;
+  font-weight: bold;
+}
 
 /* Navbar css ends here */
