@@ -190,6 +190,8 @@ h2 {
   left: 42%;
 }
 
+/* All the css below on class image, middle, text, are for hovering effect on image */
+/* This is for transition of image on hovering */
 .image {
   opacity: 1;
   display: block;
@@ -197,8 +199,12 @@ h2 {
   height: auto;
   transition: 0.5s ease;
   backface-visibility: hidden;
+  -webkit-transition: all 0.2s ease-in-out;
+  background-size: cover;
+  overflow: hidden;
 }
 
+/* This css for keeping image in middle during hover */
 .middle {
   transition: 0.5s ease;
   opacity: 0;
@@ -211,6 +217,7 @@ h2 {
   border-radius: 25%;
 }
 
+/* This is to style text while hovering */
 .text {
   background-color: #e4ee24;
   color: rgb(79, 29, 29);
@@ -220,6 +227,9 @@ h2 {
 
 .box-3:hover .image {
   opacity: 0.3;
+  -webkit-transform: scale(1.1, 1.1);
+  transform: scale(1.1, 1.1);
+  -webkit-transition: all 0.2s ease-in-out;
 }
 
 .box-3:hover .middle {
