@@ -15,8 +15,8 @@
 }
 
 .container {
-  border: 2px solid blue;
-  width: 80%;
+  /* border: 2px solid blue; */
+  width: 90%;
   margin: 0 auto;
   padding: 1%;
 }
@@ -40,26 +40,35 @@ a:hover {
 }
 
 /* ****************************** Navbar css starts here ********************************** */
+
+.navbar-container {
+  background-color: rgb(39, 46, 121);
+  border-radius: 5px;
+  overflow: auto;
+  padding: 0;
+  width: 100%;
+}
+
 .logo {
   float: left;
   /* border: 1px solid red; */
   max-width: 8%;
   border-radius: 50%;
   overflow: hidden;
+  margin-left: 20px;
+  transition: transform 0.2s;
+}
+
+.logo img:hover {
+  /* height: 110px;
+  width: 110px; */
+  transform: scale(1.3);
 }
 
 .responsive-img {
   border-radius: 50%;
   height: 90px;
   width: 100%;
-}
-
-.navbar-container {
-  background-color: rgb(39, 46, 121);
-  border-radius: 20px;
-  overflow: auto;
-  padding: 0;
-  width: 82%;
 }
 
 /* So menu item can  match the height of logo */
@@ -84,7 +93,7 @@ a:hover {
 }
 
 .menu ul li a:hover {
-  color: red;
+  color: rgb(245, 242, 45);
   font-size: 18px;
 }
 
