@@ -106,6 +106,7 @@ a:hover {
   background-position: center;
   padding: 7%;
   margin: 10px auto;
+  /* border: none; */
 }
 
 .search-box {
@@ -126,6 +127,10 @@ a:hover {
 .btn-primary {
   background-color: yellow;
   color: black;
+}
+
+.btn:hover {
+  background-color: rgb(214, 119, 140);
 }
 
 /* ***************************** Food-Search css ends here ************************************************ */
