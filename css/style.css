@@ -15,7 +15,7 @@
 }
 
 .container {
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   width: 95%;
   margin: 0 auto;
   padding: 1%;
@@ -108,10 +108,24 @@ a:hover {
   margin: 10px auto;
 }
 
-.food-search input [type="search"] {
+.search-box {
   width: 50%;
   padding: 1%;
   font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn {
+  padding: 1%;
+  border: none;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.btn-primary {
+  background-color: yellow;
+  color: black;
 }
 
 /* ***************************** Food-Search css ends here ************************************************ */
