@@ -39,7 +39,7 @@ a:hover {
   color: black;
 }
 
-/* Navbar css starts here */
+/* ****************************** Navbar css starts here ********************************** */
 .logo {
   float: left;
   /* border: 1px solid red; */
@@ -87,4 +87,5 @@ a:hover {
   color: red;
   font-size: 18px;
 }
-/* Navbar css ends here */
+
+/* ***************************** Navbar css ends here ************************************************ */
