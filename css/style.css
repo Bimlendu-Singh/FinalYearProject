@@ -199,7 +199,8 @@ h2 {
   height: auto;
   transition: 0.5s ease;
   backface-visibility: hidden;
-  -webkit-transition: all 0.2s ease-in-out;
+  /* Belo css is for zoom transition animation */
+  -webkit-transition: all 0.3s ease-in-out;
   background-size: cover;
   overflow: hidden;
 }
@@ -227,9 +228,10 @@ h2 {
 
 .box-3:hover .image {
   opacity: 0.3;
+  /* Below css is for zoom transtion while hover on the image */
   -webkit-transform: scale(1.1, 1.1);
   transform: scale(1.1, 1.1);
-  -webkit-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
 }
 
 .box-3:hover .middle {
