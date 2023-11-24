@@ -99,6 +99,7 @@ a:hover {
 
 /* ***************************** Food-Search css starts here ************************************************ */
 
+/* Css for food search class of 'search section' in which background image are added  */
 .food-search {
   background-image: url(../image/bg\ 5.jpg);
   background-size: cover;
@@ -109,6 +110,7 @@ a:hover {
   /* border: none; */
 }
 
+/* Css for search box , where searching of food item will be done */
 .search-box {
   width: 50%;
   padding: 1%;
@@ -117,13 +119,14 @@ a:hover {
   border-radius: 5px;
 }
 
+/* Css for submit button whose class named as 'btn' */
 .btn {
   padding: 1%;
   border: none;
   font-size: 1rem;
   border-radius: 5px;
 }
-
+/* Submit button coloring */
 .btn-primary {
   background-color: yellow;
   color: black;
@@ -134,3 +137,7 @@ a:hover {
 }
 
 /* ***************************** Food-Search css ends here ************************************************ */
+
+/* ***************************** Categories css starts here ************************************************ */
+
+/* ***************************** Categories css ends here ************************************************ */
