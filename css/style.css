@@ -15,7 +15,7 @@
 }
 
 .container {
-  /* border: 2px solid blue; */
+  border: 2px solid blue;
   width: 95%;
   margin: 0 auto;
   padding: 1%;
@@ -25,10 +25,30 @@
 .text-allign-center {
   text-align: center;
 }
+/* Css to color text white */
+.text-white {
+  color: white;
+}
 
+/* Stylel for responsive image */
+.img-responsive {
+  width: 100%;
+}
+
+/* Styling image as curve image */
+.img-curve {
+  border-radius: 15px;
+}
+
+/* css for fixing of overflow in div but currently not working*/
 .clearfix {
   clear: both;
   display: none;
+}
+
+/* css for fixing of overflow in div */
+.overflow {
+  overflow: auto;
 }
 
 a {
@@ -37,6 +57,11 @@ a {
 
 a:hover {
   color: black;
+}
+/* css for h2 */
+h2 {
+  font-size: 1.3rem;
+  color: rgb(12, 43, 43);
 }
 
 /* ****************************** Navbar css starts here ********************************** */
@@ -47,6 +72,7 @@ a:hover {
   overflow: auto;
   padding: 0;
   width: 100%;
+  margin: 0 0 2% 0;
 }
 
 .logo {
@@ -58,6 +84,7 @@ a:hover {
   margin-left: 20px;
   transition: transform 0.2s; /* Animation for zoom on hover */
 }
+
 /* Zoom on hover animation */
 .logo img:hover {
   transform: scale(1.3);
@@ -140,4 +167,24 @@ a:hover {
 
 /* ***************************** Categories css starts here ************************************************ */
 
+.Categories {
+  padding: 2%;
+}
+
+.box-3 {
+  border: 1px solid black;
+  float: left;
+  width: 28%;
+  margin: 2%;
+}
+
+.float-container {
+  position: relative;
+}
+
+.float-text {
+  position: absolute;
+  bottom: 50px;
+  left: 42%;
+}
 /* ***************************** Categories css ends here ************************************************ */
