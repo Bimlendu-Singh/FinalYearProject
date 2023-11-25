@@ -264,7 +264,7 @@ h2 {
 
 .food-menu-desc {
   width: 70%;
-  float: left;
+  /* float: left; */
   margin-left: 8%;
 }
 
