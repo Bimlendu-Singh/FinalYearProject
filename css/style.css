@@ -226,6 +226,7 @@ h2 {
   padding: 16px 32px;
 }
 
+/* Hover css on categories boxes */
 .box-3:hover .image {
   opacity: 0.3;
   /* Below css is for zoom transtion while hover on the image */
