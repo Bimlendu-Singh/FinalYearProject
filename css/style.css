@@ -155,12 +155,11 @@ h2 {
 }
 /* Submit button coloring */
 .btn-primary {
-  background-color: yellow;
-  color: black;
+  background-color: rgb(214, 119, 140);
 }
 
 .btn:hover {
-  background-color: rgb(214, 119, 140);
+  background-color: yellow;
 }
 
 /* ***************************** Food-Search css ends here ************************************************ */
@@ -250,7 +249,7 @@ h2 {
 
 .food-menu-box {
   border: 1px solid black;
-  width: 43%;
+  width: 40%;
   margin: 2%;
   float: left;
   background-color: white;
@@ -261,6 +260,12 @@ h2 {
 .food-menu-img {
   width: 25%;
   float: left;
+}
+
+.food-menu-desc {
+  width: 70%;
+  float: left;
+  margin-left: 8%;
 }
 
 /* ***************************** Food-Menu css ends here ************************************************ */
