@@ -243,10 +243,23 @@ h2 {
 
 /* ***************************** Food-Menu css starts here ************************************************ */
 
+.food-menu {
+  background-color: rgb(10, 51, 87);
+  padding: 4%;
+}
+
 .food-menu-box {
   border: 1px solid black;
-  width: 45%;
-  margin: 1%;
+  width: 43%;
+  margin: 2%;
+  float: left;
+  background-color: white;
+  padding: 2%;
+  border-radius: 15px;
+}
+
+.food-menu-img {
+  width: 25%;
   float: left;
 }
 
