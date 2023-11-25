@@ -242,6 +242,7 @@ h2 {
 
 /* ***************************** Food-Menu css starts here ************************************************ */
 
+/* Css for food menu section and adding background color of that section */
 .food-menu {
   background-color: rgb(10, 51, 87);
   padding: 4%;
@@ -260,12 +261,32 @@ h2 {
 .food-menu-img {
   width: 25%;
   float: left;
+  /* Belo css is for zoom transition animation */
+  -webkit-transition: all 0.3s ease-in-out;
+  background-size: cover;
+  overflow: hidden;
+}
+
+/* This css is for zooming the image while hovering over the image of food menu */
+.food-menu-img:hover img {
+  -webkit-transform: scale(1.2, 1.2);
+  transform: scale(1.2, 1.2);
+  -webkit-transition: all 0.3s ease-in-out;
 }
 
 .food-menu-desc {
-  width: 70%;
-  /* float: left; */
-  margin-left: 8%;
+  width: 60%;
+  margin-top: 2%;
+  margin-left: 35%;
 }
 
+.food-price {
+  font-size: 1rem;
+  margin: 2% 0;
+}
+
+.food-details {
+  font-size: 1rem;
+  color: gray;
+}
 /* ***************************** Food-Menu css ends here ************************************************ */
