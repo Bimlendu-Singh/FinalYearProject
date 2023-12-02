@@ -332,9 +332,32 @@ h2 {
     padding: 0 auto;
   }
 
+  .food-search {
+    padding: 10%;
+    margin-top: 4%;
+  }
+
+  .Categories {
+    padding: 2% 0;
+  }
+
   .box-3 {
     width: 90%;
-    margin: 4% auto;
+    margin: 4% 4%;
+  }
+
+  .food-menu {
+    padding: 10%;
+  }
+
+  .food-menu-box {
+    width: 90%;
+    padding: 5%;
+    margin-bottom: 5%;
+  }
+
+  .social {
+    padding: 5% 0;
   }
 }
 
