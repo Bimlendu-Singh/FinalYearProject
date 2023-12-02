@@ -303,3 +303,39 @@ h2 {
 }
 
 /* ***************************** Social Media css ends here ************************************************ */
+
+/* ***************************** Css for Responiveness for mobile size or small screen starts ************************************************ */
+
+@media only screen and (max-width: 768px) {
+  .logo {
+    max-width: 50%;
+    float: none;
+    margin: 0 auto;
+    border-radius: 0;
+  }
+
+  .logo img {
+    height: 8rem;
+  }
+
+  menu {
+    margin: 0%;
+    padding: 0%;
+  }
+
+  .menu ul {
+    text-align: center;
+    padding: 0;
+  }
+
+  menu ul li {
+    padding: 0 auto;
+  }
+
+  .box-3 {
+    width: 90%;
+    margin: 4% auto;
+  }
+}
+
+/* ***************************** Css for Responiveness for mobile size or small screen ends ************************************************ */
