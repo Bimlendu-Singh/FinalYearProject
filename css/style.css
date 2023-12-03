@@ -307,20 +307,24 @@ h2 {
 /* ***************************** Css for Responiveness for mobile size or small screen starts ************************************************ */
 
 @media only screen and (max-width: 768px) {
+  .navbar-container {
+    margin: 0;
+  }
   .logo {
     max-width: 50%;
     float: none;
     margin: 0 auto;
-    border-radius: 0;
+    /* border-radius: 0; */
   }
 
   .logo img {
-    height: 8rem;
+    height: 9rem;
   }
 
-  menu {
-    margin: 0%;
-    padding: 0%;
+  .menu {
+    margin-bottom: 5%;
+    padding: 0;
+    line-height: 20px;
   }
 
   .menu ul {
@@ -348,6 +352,10 @@ h2 {
 
   .food-menu {
     padding: 10%;
+  }
+
+  .food-menu h2 {
+    margin-bottom: 8%;
   }
 
   .food-menu-box {
