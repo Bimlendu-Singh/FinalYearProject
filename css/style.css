@@ -321,40 +321,6 @@ h2 {
   padding: 20% auto;
   margin-right: 3%;
 }
-/*
-.about-img {
-  border-radius: 5%;
-}
-
-.about-restaurant-img {
-  width: 40%;
-  float: left;
-  border-radius: 15%;
-}
-
-.about-info {
-  
-  margin: 0 auto;
-  height: 100%;
-}
-
-.about-info p {
-  font-size: 18px;
-  line-height: 1.5;
-}
-
-.about-info button {
-  border: none;
-  outline: none;
-  padding: 10px 20px;
-  color: #fff;
-  background-color: #000;
-  cursor: pointer;
-}
-
-.about-info button:hover {
-  background-color: #555;
-} */
 
 /* ***************************** About css ends here ************************************************ */
 
@@ -440,6 +406,21 @@ h2 {
     width: 90%;
     padding: 5%;
     margin-bottom: 5%;
+  }
+
+  .about-section {
+    margin: 5% auto;
+  }
+  .about-img {
+    float: none;
+    width: 90%;
+    margin-bottom: 5%;
+  }
+
+  .about-para {
+    float: none;
+    text-align: center;
+    width: 100%;
   }
 
   .social {
