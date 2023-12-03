@@ -298,6 +298,8 @@ h2 {
 /* ***************************** About css starts here ************************************************ */
 
 .about-section {
+  margin: 5% auto;
+  border-radius: 3px;
   padding: 50px;
   text-align: center;
   background-color: rgb(10, 51, 87);
