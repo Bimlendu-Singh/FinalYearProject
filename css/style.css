@@ -34,6 +34,14 @@
   color: white;
 }
 
+.text-yellow {
+  color: yellow;
+}
+
+.text-yellowgreen {
+  color: yellowgreen;
+}
+
 /* Stylel for responsive image */
 .img-responsive {
   width: 100%;
@@ -325,6 +333,27 @@ h2 {
 }
 
 /* ***************************** About css ends here ************************************************ */
+
+/* ***************************** Order css starts here ************************************************ */
+
+.order {
+  width: 50%;
+  margin: 0 auto;
+}
+.input-responsive {
+  width: 96%;
+  padding: 1%;
+  margin-bottom: 3%;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+.order-label {
+  margin-bottom: 1%;
+  font-weight: bold;
+}
+
+/* ***************************** Order css ends here ************************************************ */
 
 /* ***************************** Social Media css starts here ************************************************ */
 
